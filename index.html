@@ -1,0 +1,993 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Bố cục trang web Bootstrap 4 --- dammio.com</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <script src="./javascript.js"> </script>
+    <style>
+        .fakeimg {
+            height: 200px;
+            background: #aaa;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <!-- Phần header website -->
+        <div class="header" style="margin-bottom:0">
+            <div class="row">
+                <div class="col">
+                    <div class="col-sm-8"> <img src="./images/logo.jpg"></div>
+                    <p>Chào mừng bạn đến với Demo</p>
+                </div>
+                <div class="col">
+
+                </div>
+                <form class="form-inline" action="/action_page.php">
+                    <input class="form-control mr-sm-2" type="text" placeholder="Tìm kiếm sản phẩm">
+                    <button class="btn btn-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+        <!-- Kết thúc phần header website -->
+
+        <!-- Phần menu chính -->
+
+        <div class="row">
+            <div class="col-sm-4">
+                <ul class="list-group">
+                    <li class="list-group-item active"> DANH SÁCH SẢN PHẨM</li>
+                    <li class="list-group-item">Vòng phong thuỷ</li>
+                    <li class="list-group-item">Nhẫn phong thuỷ</li>
+                    <li class="list-group-item">Đồ trang trí phong thuỷ</li>
+                    <li class="list-group-item">Vòng phong thuỷ 1</li>
+                    <li class="list-group-item">Vòng phong thuỷ 2</li>
+                    <li class="list-group-item">Vòng phong thuỷ 3</li>
+                    <li class="list-group-item">Vòng phong thuỷ 4</li>
+                    <li class="list-group-item">Vòng phong thuỷ 5</li>
+                </ul>
+            </div>
+            <div class="col-sm-8">
+                <nav class="navbar k bg-success text-white ">
+                    <a class="nav-link" id="home-tab" data-toggle="tab" href="#home">Trang chủ</a>
+                    <a class="nav-link" id="product-tab" data-toggle="tab" href="#product">Sản phẩm</a>
+                    <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact">Giới thiệu</a>
+                    <a class="nav-link" id="home-tab" data-toggle="tab" href="#home">Tin tức</a>
+                    <a class="nav-link" id="product-tab" data-toggle="tab" href="#product">Liên hệ</a>
+                </nav>
+                <div class="row">
+                    <img name="image" src="images/slider.jpg" alt="" width="500px" height="400">
+                    <div class="col-sm-4">
+
+                        <div class="row">
+                            <div class="col-sm-4"><img src="images/anh dep ve tinh ban 2.jpg" width="80px"
+                                    height="71px"></div>
+                            <div class="col-sm-8">
+                                <p>10/10/2021</p>
+                                <h6>Tác dụng của đá thạch anh trắng</h6>
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="row">
+                            <div class="col-sm-4"><img src="images/anh dep ve tinh ban 2.jpg" width="80px"
+                                    height="71px"></div>
+                            <div class="col-sm-8">
+                                <p>10/10/2021</p>
+                                <h6>Tác dụng của đá thạch anh trắng</h6>
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="row">
+                            <div class="col-sm-4"><img src="images/anh dep ve tinh ban 2.jpg" width="80px"
+                                    height="71px"></div>
+                            <div class="col-sm-8">
+                                <p>10/10/2021</p>
+                                <h6>Tác dụng của đá thạch anh trắng</h6>
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="row">
+                            <div class="col-sm-4"><img src="images/anh dep ve tinh ban 2.jpg" width="80px"
+                                    height="71px"></div>
+                            <div class="col-sm-8">
+                                <p>10/10/2021</p>
+                                <h6>Tác dụng của đá thạch anh trắng</h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+
+
+    <div class="container ">
+        <ul class="nav nav-tabs ">
+            <li class="nav-item">
+                <a class="nav-link active" href="#">Sản phẩm mới</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Sản phẩm hot</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Sản phẩm nổi bật</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link " href="#">Sản phẩm khuyến mãi</a>
+            </li>
+        </ul>
+        <div class="row">
+            <div class="col">
+                <div class="card-container">
+                    <div class="card-image">
+                        <img class="img-fluid card-image-content" src="./images/1.jpg" alt="">
+                    </div>
+                    <div class="card-content">
+                        <p class="cart-content__name">Vòng tay đá</p>
+                        <p class="cart-content__id">Diopside 1A 10</p>
+                        <p class="cart-content__price"><span>660.000</span>đ</p>
+                        <button class="card-btn">+ Mua hàng</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card-container">
+                    <div class="card-image">
+                        <img class="img-fluid card-image-content" src="./images/2.jpg" alt="">
+                    </div>
+                    <div class="card-content">
+                        <p class="cart-content__name">Vòng tay đá</p>
+                        <p class="cart-content__id">Diopside 1A 10</p>
+                        <p class="cart-content__price"><span>660.000</span>đ</p>
+                        <button class="card-btn">+ Mua hàng</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card-container">
+                    <div class="card-image">
+                        <img class="img-fluid card-image-content" src="./images/3.jpg" alt="">
+                    </div>
+                    <div class="card-content">
+                        <p class="cart-content__name">Vòng tay đá</p>
+                        <p class="cart-content__id">Diopside 1A 10</p>
+                        <p class="cart-content__price"><span>660.000</span>đ</p>
+                        <button class="card-btn">+ Mua hàng</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <div class="card-container">
+                    <div class="card-image">
+                        <img class="img-fluid card-image-content" src="./images/4.jpg" alt="">
+                    </div>
+                    <div class="card-content">
+                        <p class="cart-content__name">Vòng tay đá</p>
+                        <p class="cart-content__id">Diopside 1A 10</p>
+                        <p class="cart-content__price"><span>660.000</span>đ</p>
+                        <button class="card-btn">+ Mua hàng</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card-container">
+                    <div class="card-image">
+                        <img class="img-fluid card-image-content" src="./images/5.jpg" alt="">
+                    </div>
+                    <div class="card-content">
+                        <p class="cart-content__name">Vòng tay đá</p>
+                        <p class="cart-content__id">Diopside 1A 10</p>
+                        <p class="cart-content__price"><span>660.000</span>đ</p>
+                        <button class="card-btn">+ Mua hàng</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card-container">
+                    <div class="card-image">
+                        <img class="img-fluid card-image-content" src="./images/6.jpg" alt="">
+                    </div>
+                    <div class="card-content">
+                        <p class="cart-content__name">Vòng tay đá</p>
+                        <p class="cart-content__id">Diopside 1A 10</p>
+                        <p class="cart-content__price"><span>660.000</span>đ</p>
+                        <button class="card-btn">+ Mua hàng</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row my-5">
+            <div class="col-3">
+                <div class="content-side-bar">
+                    <ul class="list-group">
+                        <li class="list-group-item active">Vòng tay phong thuỷ</li>
+                        <li class="list-group-item">Vòng tay đá quý</li>
+                        <li class="list-group-item">Vòng tay gỗ quý</li>
+                        <li class="list-group-item">VVòng tay đá Diopside</li>
+                        <li class="list-group-item">Vòng tay nổi bật</li>
+                        <li class="list-group-item">Vòng tay ngọc quý</li>
+                        <li class="list-group-item">Vòng tay Sita</li>
+
+                    </ul>
+                    <div class="banner">
+                        <img class="img-fluid" src="./images/20.jpg" alt="" style="width:285px ;
+                            height:364px">
+                    </div>
+                </div>
+            </div>
+            <div class="col-9">
+                <div class="row ">
+                    <div class="col-3">
+                        <div class="card text-center" style="width: 200px">
+                            <img class="card-img-top" src="./images/7.jpg" alt="Card image cap" style="height:182px;"
+                                style="height:182px;">
+                            <div class="card-body p-3">
+                                <h5 class="card-title m-0">Vòng tay đá Diopside</h5>
+                                <p class="card-text m-0">1A 10</p>
+                                <p class="cart-content__price m-2"><span>660.000</span>đ</p>
+                                <button class="card-btn">+ Mua hàng</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <div class="card text-center" style="width: 200px">
+                            <img class="card-img-top" src="./images/8.jpg" alt="Card image cap" style="height:182px;">
+                            <div class="card-body p-3">
+                                <h5 class="card-title m-0">Vòng tay đá Diopside</h5>
+                                <p class="card-text m-0">1A 10</p>
+                                <p class="cart-content__price m-2"><span>660.000</span>đ</p>
+                                <button class="card-btn">+ Mua hàng</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <div class="card text-center" style="width: 200px">
+                            <img class="card-img-top" src="./images/9.jpg" alt="Card image cap" style="height:182px;">
+                            <div class="card-body p-3">
+                                <h5 class="card-title m-0">Vòng tay đá Diopside</h5>
+                                <p class="card-text m-0">1A 10</p>
+                                <p class="cart-content__price m-2"><span>660.000</span>đ</p>
+                                <button class="card-btn">+ Mua hàng</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <div class="card text-center" style="width: 200px">
+                            <img class="card-img-top" src="./images/10.jpg" alt="Card image cap" style="height:182px;">
+                            <div class="card-body p-3">
+                                <h5 class="card-title m-0">Vòng tay đá Diopside</h5>
+                                <p class="card-text m-0">1A 10</p>
+                                <p class="cart-content__price m-2"><span>660.000</span>đ</p>
+                                <button class="card-btn">+ Mua hàng</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row my-4">
+                    <div class="col-3">
+                        <div class="card text-center" style="width: 200px">
+                            <img class="card-img-top" src="./images/11.jpg" alt="Card image cap" style="height:182px;">
+                            <div class="card-body p-3">
+                                <h5 class="card-title m-0">Vòng tay đá Diopside</h5>
+                                <p class="card-text m-0">1A 10</p>
+                                <p class="cart-content__price m-2"><span>660.000</span>đ</p>
+                                <button class="card-btn">+ Mua hàng</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <div class="card text-center" style="width: 200px">
+                            <img class="card-img-top" src="./images/12.jpg" alt="Card image cap" style="height:182px;">
+                            <div class="card-body p-3">
+                                <h5 class="card-title m-0">Vòng tay đá Diopside</h5>
+                                <p class="card-text m-0">1A 10</p>
+                                <p class="cart-content__price m-2"><span>660.000</span>đ</p>
+                                <button class="card-btn">+ Mua hàng</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <div class="card text-center" style="width: 200px">
+                            <img class="card-img-top" src="./images/13.jpg" alt="Card image cap" style="height:182px;">
+                            <div class="card-body p-3">
+                                <h5 class="card-title m-0">Vòng tay đá Diopside</h5>
+                                <p class="card-text m-0">1A 10</p>
+                                <p class="cart-content__price m-2"><span>660.000</span>đ</p>
+                                <button class="card-btn">+ Mua hàng</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <div class="card text-center" style="width: 200px">
+                            <img class="card-img-top" src="./images/14.jpg" alt="Card image cap" style="height:182px;">
+                            <div class="card-body p-3">
+                                <h5 class="card-title m-0">Vòng tay đá Diopside</h5>
+                                <p class="card-text m-0">1A 10</p>
+                                <p class="cart-content__price m-2"><span>660.000</span>đ</p>
+                                <button class="card-btn">+ Mua hàng</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row my-5">
+            <div class="col-3">
+                <div class="content-side-bar">
+                    <ul class="list-group">
+                        <li class="list-group-item active">Vòng tay phong thuỷ</li>
+                        <li class="list-group-item">Vòng tay thạch anh</li>
+                        <li class="list-group-item">Vòng tay thạch anh</li>
+                        <li class="list-group-item">Vòng tay thạch anh</li>
+                        <li class="list-group-item">Vòng tay thạch anh</li>
+                        <li class="list-group-item">Vòng tay thạch anh</li>
+                        <li class="list-group-item">Vòng tay thạch anh</li>
+                        <li class="list-group-item">Vòng tay thạch anh</li>
+                    </ul>
+                    <div class="banner">
+                        <img class="img-fluid" src="./images/200.jpg" alt="" style="width:285px ;
+                            height:364px">
+                    </div>
+                </div>
+            </div>
+            <div class="col-9">
+                <div class="row ">
+                    <div class="col-3">
+                        <div class="card text-center" style="width: 200px">
+                            <img class="card-img-top" src="./images/15.jpg" alt="Card image cap" style="height:182px;">
+                            <div class="card-body p-3">
+                                <h5 class="card-title m-0">Vòng tay đá Diopside</h5>
+                                <p class="card-text m-0">1A 10</p>
+                                <p class="cart-content__price m-2"><span>660.000</span>đ</p>
+                                <button class="card-btn">+ Mua hàng</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <div class="card text-center" style="width: 200px">
+                            <img class="card-img-top" src="./images/16.jpg" alt="Card image cap" style="height:182px;">
+                            <div class="card-body p-3">
+                                <h5 class="card-title m-0">Vòng tay đá Diopside</h5>
+                                <p class="card-text m-0">1A 10</p>
+                                <p class="cart-content__price m-2"><span>660.000</span>đ</p>
+                                <button class="card-btn">+ Mua hàng</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <div class="card text-center" style="width: 200px">
+                            <img class="card-img-top" src="./images/17.jpg" alt="Card image cap" style="height:182px;">
+                            <div class="card-body p-3">
+                                <h5 class="card-title m-0">Vòng tay đá Diopside</h5>
+                                <p class="card-text m-0">1A 10</p>
+                                <p class="cart-content__price m-2"><span>660.000</span>đ</p>
+                                <button class="card-btn">+ Mua hàng</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <div class="card text-center" style="width: 200px">
+                            <img class="card-img-top" src="./images/18.jpg" alt="Card image cap" style="height:182px;">
+                            <div class="card-body p-3">
+                                <h5 class="card-title m-0">Vòng tay đá Diopside</h5>
+                                <p class="card-text m-0">1A 10</p>
+                                <p class="cart-content__price m-2"><span>660.000</span>đ</p>
+                                <button class="card-btn">+ Mua hàng</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row my-4">
+                    <div class="col-3">
+                        <div class="card text-center" style="width: 200px">
+                            <img class="card-img-top" src="./images/21.jpg" alt="Card image cap" style="height:182px;">
+                            <div class="card-body p-3">
+                                <h5 class="card-title m-0">Vòng tay đá Diopside</h5>
+                                <p class="card-text m-0">1A 10</p>
+                                <p class="cart-content__price m-2"><span>660.000</span>đ</p>
+                                <button class="card-btn">+ Mua hàng</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <div class="card text-center" style="width: 200px">
+                            <img class="card-img-top" src="./images/22.jpg" alt="Card image cap" style="height:182px;">
+                            <div class="card-body p-3">
+                                <h5 class="card-title m-0">Vòng tay đá Diopside</h5>
+                                <p class="card-text m-0">1A 10</p>
+                                <p class="cart-content__price m-2"><span>660.000</span>đ</p>
+                                <button class="card-btn">+ Mua hàng</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <div class="card text-center" style="width: 200px">
+                            <img class="card-img-top" src="./images/23.jpg" alt="Card image cap" style="height:182px;">
+                            <div class="card-body p-3">
+                                <h5 class="card-title m-0">Vòng tay đá Diopside</h5>
+                                <p class="card-text m-0">1A 10</p>
+                                <p class="cart-content__price m-2"><span>660.000</span>đ</p>
+                                <button class="card-btn">+ Mua hàng</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <div class="card text-center" style="width: 200px">
+                            <img class="card-img-top" src="./images/24.jpg" alt="Card image cap" style="height:182px;">
+                            <div class="card-body p-3">
+                                <h5 class="card-title m-0">Vòng tay đá Diopside</h5>
+                                <p class="card-text m-0">1A 10</p>
+                                <p class="cart-content__price m-2"><span>660.000</span>đ</p>
+                                <button class="card-btn">+ Mua hàng</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row my-5">
+            <div class="col-3">
+                <div class="content-side-bar">
+                    <ul class="list-group">
+                        <li class="list-group-item active">Vòng tay phong thuỷ</li>
+                        <li class="list-group-item">Vòng tay thạch anh</li>
+                        <li class="list-group-item">Vòng tay đá quý</li>
+                        <li class="list-group-item">Vòng tay gỗ quý</li>
+                        <li class="list-group-item">Vòng tay thạch anh</li>
+                        <li class="list-group-item">Vòng tay thạch anh</li>
+                        <li class="list-group-item">Vòng tay thạch anh</li>
+                        <li class="list-group-item">Vòng tay thạch anh</li>
+                    </ul>
+                    <div class="banner">
+                        <img class="img-fluid" src="./images/28.jpg" alt="" style="width:285px ;
+                            height:364px">
+                    </div>
+                </div>
+            </div>
+            <div class="col-9">
+                <div class="row ">
+                    <div class="col-3">
+                        <div class="card text-center" style="width: 200px">
+                            <img class="card-img-top" src="./images/25.jpg" alt="Card image cap" style="height:182px;">
+                            <div class="card-body p-3">
+                                <h5 class="card-title m-0">Vòng tay đá Diopside</h5>
+                                <p class="card-text m-0">1A 10</p>
+                                <p class="cart-content__price m-2"><span>660.000</span>đ</p>
+                                <button class="card-btn">+ Mua hàng</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <div class="card text-center" style="width: 200px">
+                            <img class="card-img-top" src="./images/27.jpg" alt="Card image cap" style="height:182px;">
+                            <div class="card-body p-3">
+                                <h5 class="card-title m-0">Vòng tay đá Diopside</h5>
+                                <p class="card-text m-0">1A 10</p>
+                                <p class="cart-content__price m-2"><span>660.000</span>đ</p>
+                                <button class="card-btn">+ Mua hàng</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <div class="card text-center" style="width: 200px">
+                            <img class="card-img-top" src="./images/29.jpg" alt="Card image cap" style="height:182px;">
+                            <div class="card-body p-3">
+                                <h5 class="card-title m-0">Vòng tay đá Diopside</h5>
+                                <p class="card-text m-0">1A 10</p>
+                                <p class="cart-content__price m-2"><span>660.000</span>đ</p>
+                                <button class="card-btn">+ Mua hàng</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <div class="card text-center" style="width: 200px">
+                            <img class="card-img-top" src="./images/30.jpg" alt="Card image cap" style="height:182px;">
+                            <div class="card-body p-3">
+                                <h5 class="card-title m-0">Vòng tay đá Diopside</h5>
+                                <p class="card-text m-0">1A 10</p>
+                                <p class="cart-content__price m-2"><span>660.000</span>đ</p>
+                                <button class="card-btn">+ Mua hàng</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row my-4">
+                    <div class="col-3">
+                        <div class="card text-center" style="width: 200px">
+                            <img class="card-img-top" src="./images/31.jpg" alt="Card image cap" style="height:182px;">
+                            <div class="card-body p-3">
+                                <h5 class="card-title m-0">Vòng tay đá Diopside</h5>
+                                <p class="card-text m-0">1A 10</p>
+                                <p class="cart-content__price m-2"><span>660.000</span>đ</p>
+                                <button class="card-btn">+ Mua hàng</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <div class="card text-center" style="width: 200px">
+                            <img class="card-img-top" src="./images/32.jpg" alt="Card image cap" style="height:182px;">
+                            <div class="card-body p-3">
+                                <h5 class="card-title m-0">Vòng tay đá Diopside</h5>
+                                <p class="card-text m-0">1A 10</p>
+                                <p class="cart-content__price m-2"><span>660.000</span>đ</p>
+                                <button class="card-btn">+ Mua hàng</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <div class="card text-center" style="width: 200px">
+                            <img class="card-img-top" src="./images/33.jpg" alt="Card image cap" style="height:182px;">
+                            <div class="card-body p-3">
+                                <h5 class="card-title m-0">Vòng tay đá Diopside</h5>
+                                <p class="card-text m-0">1A 10</p>
+                                <p class="cart-content__price m-2"><span>660.000</span>đ</p>
+                                <button class="card-btn">+ Mua hàng</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <div class="card text-center" style="width: 200px">
+                            <img class="card-img-top" src="./images/34.jpg" alt="Card image cap" style="height:182px;">
+                            <div class="card-body p-3">
+                                <h5 class="card-title m-0">Vòng tay đá Diopside</h5>
+                                <p class="card-text m-0">1A 10</p>
+                                <p class="cart-content__price m-2"><span>660.000</span>đ</p>
+                                <button class="card-btn">+ Mua hàng</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+
+            <img name="image" class="card-img-top" src="./images/1.jpg" width="1350px" height="450px">
+        </div>
+        <script type="text/javascript">
+            window.onload = function () {
+                setTimeout("switch_Image()", 3000);
+            }
+            var current = 1;
+            var num_image = 4;
+            function switch_Image() {
+                current++;
+                document.images['image'].src = 'images/' + current + '.jpg';
+                if (current < num_image) {
+                    setTimeout("switch_Image()", 3000);
+                } else if (current == num_image) {
+                    current = 0;
+                    setTimeout("switch_Image()", 3000);
+                }
+            }
+        </script>
+        <div class="row">
+            <div class="col">
+
+                <button type="button" class="btn btn-success ">Sản phẩm nổi bật</button>
+                <div class="col">
+                    <div class="card-container">
+                        <div class="card-image">
+                            <img class="img-fluid " src="./images/36.jpg" width="70px" height="100px" alt="">
+                        </div>
+                        <div class="card-content">
+                            <p class="cart-content__name">Vòng tay đá Diopside 4 Lá Bạc CCC</p>
+
+                            <p class="cart-content__price"><span>898.000</span>đ</p>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card-container">
+                        <div class="card-image">
+                            <img class="img-fluid " src="./images/37.jpg" width="70px" height="100px" alt="">
+                        </div>
+                        <div class="card-content">
+                            <p class="cart-content__name">Vòng Tay Đá 2A 10 Mix XCA</p>
+
+                            <p class="cart-content__price"><span>898.000</span>đ</p>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card-container">
+                        <div class="card-image">
+                            <img class="img-fluid " src="./images/38.jpg" width="70px" height="100px" alt="">
+                        </div>
+                        <div class="card-content">
+                            <p class="cart-content__name">Vòng Tay Mã Não Đỏ OAS</p>
+
+                            <p class="cart-content__price"><span>898.000</span>đ</p>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card-container">
+                        <div class="card-image">
+                            <img class="img-fluid " src="./images/39.jpg" width="70px" height="100px" alt="">
+                        </div>
+                        <div class="card-content">
+                            <p class="cart-content__name">Vòng Tay Thạch Anh Tím</p>
+
+                            <p class="cart-content__price"><span>898.000</span>đ</p>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card-container">
+                        <div class="card-image">
+                            <img class="img-fluid " src="./images/40.jpg" width="70px" height="100px" alt="">
+                        </div>
+                        <div class="card-content">
+                            <p class="cart-content__name">Vòng Tay Đá Aquamarine 2A 10</p>
+
+                            <p class="cart-content__price"><span>898.000</span>đ</p>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+
+
+                <button type="button" class="btn btn-success">Sản phẩm khuyến mãi</button>
+
+                <div class="col">
+                    <div class="card-container">
+                        <div class="card-image">
+                            <img class="img-fluid " src="./images/41.jpg" width="70px" height="100px" alt="">
+                        </div>
+                        <div class="card-content">
+                            <p class="cart-content__name">Vòng tay đá Diopside 4 Lá Bạc CCC</p>
+
+                            <p class="cart-content__price"><span>898.000</span>đ</p>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card-container">
+                        <div class="card-image">
+                            <img class="img-fluid " src="./images/42.jpg" width="70px" height="100px" alt="">
+                        </div>
+                        <div class="card-content">
+                            <p class="cart-content__name">Vòng Tay Đá 2A 10 Mix XCA</p>
+
+                            <p class="cart-content__price"><span>898.000</span>đ</p>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card-container">
+                        <div class="card-image">
+                            <img class="img-fluid " src="./images/43.jpg" width="70px" height="100px" alt="">
+                        </div>
+                        <div class="card-content">
+                            <p class="cart-content__name">Vòng Tay Mã Não Đỏ OAS</p>
+
+                            <p class="cart-content__price"><span>898.000</span>đ</p>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card-container">
+                        <div class="card-image">
+                            <img class="img-fluid " src="./images/44.jpg" width="70px" height="100px" alt="">
+                        </div>
+                        <div class="card-content">
+                            <p class="cart-content__name">Vòng Tay Thạch Anh Tím</p>
+
+                            <p class="cart-content__price"><span>898.000</span>đ</p>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card-container">
+                        <div class="card-image">
+                            <img class="img-fluid " src="./images/45.jpg" width="70px" height="100px" alt="">
+                        </div>
+                        <div class="card-content">
+                            <p class="cart-content__name">Vòng Tay Đá Aquamarine 2A 10</p>
+
+                            <p class="cart-content__price"><span>898.000</span>đ</p>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+
+                <button type="button" class="btn btn-success">Sản phẩm hot</button>
+                <div class="col">
+                    <div class="card-container">
+                        <div class="card-image">
+                            <img class="img-fluid " src="./images/46.jpg" width="70px" height="100px" alt="">
+                        </div>
+                        <div class="card-content">
+                            <p class="cart-content__name">Vòng tay đá Diopside 4 Lá Bạc CCC</p>
+
+                            <p class="cart-content__price"><span>898.000</span>đ</p>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card-container">
+                        <div class="card-image">
+                            <img class="img-fluid " src="./images/47.jpg" width="70px" height="100px" alt="">
+                        </div>
+                        <div class="card-content">
+                            <p class="cart-content__name">Vòng Tay Đá 2A 10 Mix XCA</p>
+
+                            <p class="cart-content__price"><span>898.000</span>đ</p>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card-container">
+                        <div class="card-image">
+                            <img class="img-fluid " src="./images/48.jpg" width="70px" height="100px" alt="">
+                        </div>
+                        <div class="card-content">
+                            <p class="cart-content__name">Vòng Tay Mã Não Đỏ OAS</p>
+
+                            <p class="cart-content__price"><span>898.000</span>đ</p>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card-container">
+                        <div class="card-image">
+                            <img class="img-fluid " src="./images/49.jpg" width="70px" height="100px" alt="">
+                        </div>
+                        <div class="card-content">
+                            <p class="cart-content__name">Vòng Tay Thạch Anh Tím</p>
+
+                            <p class="cart-content__price"><span>898.000</span>đ</p>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card-container">
+                        <div class="card-image">
+                            <img class="img-fluid " src="./images/50.jpg" width="70px" height="100px" alt="">
+                        </div>
+                        <div class="card-content">
+                            <p class="cart-content__name">Vòng Tay Đá Aquamarine 2A 10</p>
+
+                            <p class="cart-content__price"><span>898.000</span>đ</p>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="col">
+
+
+            <button type="button" class="btn btn-success">TIN TỨC NỔI BẬT</button>
+            <HR>
+
+            <div class="row">
+                <div class="col">
+                    <div class="card" style="width: 18rem;">
+                        <img class="card-img-top" src="./images/51.jpg" width="380px" height="200px">
+                        <div class="card-body">
+                            <h5>Tác dụng của đá thạch anh trắng</h5>
+                            <p>Đá thạch anh trắng rải dưới nền nhà tại khu vực có dòng địa khí xấu sẽ...</p>
+                            <button class="card-btn">Chi tiết</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card" style="width: 18rem;">
+                        <img class="card-img-top" src="./images/52.jpg" width="380px" height="200px">
+                        <div class="card-body">
+                            <h5>Hiểm họa của Chu sa Trung Quốc</h5>
+                            <p>Hiểm họa chết người của đá phong thủy Chu sa từ Trung Quốc Trên mạng xã hội Facebook...
+                            </p>
+                            <button class="card-btn">Chi tiết</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card" style="width: 18rem;">
+                        <img class="card-img-top" src="./images/53.jpg" width="380px" height="200px">
+                        <div class="card-body">
+                            <h5>Huyền bí vòng tay sợi chỉ đỏ</h5>
+                            <p>Sự thật huyền bí đằng sau vòng tay sợi chỉ đỏ may mắn
+                                Có thể bạn thấy rất...</p>
+                            <button class="card-btn">Chi tiết</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+
+    </div>
+
+
+    <!-- Phần Footer -->
+
+    <div class="container">
+        <!-- Footer -->
+        <footer class="bg-dark text-center text-white">
+            <!-- Grid container -->
+            <div class="container p-4">
+
+
+                <!-- Section: Form -->
+                <section class="">
+                    <form action="">
+                        <!--Grid row-->
+                        <div class="row d-flex justify-content-center">
+                            <!--Grid column-->
+                            <div class="col-auto">
+                                <p class="pt-2">
+                                    <strong>
+                                        Đăng ký nhận bản tin của chúng tôi</strong>
+                                </p>
+                            </div>
+                            <!--Grid column-->
+
+                            <!--Grid column-->
+                            <div class="col-md-5 col-12">
+                                <!-- Email input -->
+                                <div class="form-outline form-white mb-4">
+                                    <input type="email" id="form5Example2" class="form-control" />
+                                    <label class="form-label" for="form5Example2">Địa chỉ email</label>
+                                </div>
+                            </div>
+                            <!--Grid column-->
+
+                            <!--Grid column-->
+                            <div class="col-auto">
+                                <!-- Submit button -->
+                                <button type="submit" class="btn btn-outline-light mb-4">
+                                    Đăng ký
+                                </button>
+                            </div>
+                            <!--Grid column-->
+                        </div>
+                        <!--Grid row-->
+                    </form>
+                </section>
+                <!-- Section: Form -->
+
+                <!-- Section: Text -->
+
+                <!-- Section: Text -->
+
+                <!-- Section: Links -->
+                <section class="">
+                    <!--Grid row-->
+                    <div class="row">
+                        <!--Grid column-->
+                        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                            <h5 class="text-uppercase">Hỗ trợ</h5>
+
+                            <ul class="list-unstyled mb-0">
+                                <li>
+                                    <a href="#!" class="text-white">Trang chủ </a>
+                                </li>
+                                <li>
+                                    <a href="#!" class="text-white">Sản phẩm</a>
+                                </li>
+                                <li>
+                                    <a href="#!" class="text-white">Tin tức </a>
+                                </li>
+                                <li>
+                                    <a href="#!" class="text-white">Liên hệ</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <!--Grid column-->
+
+                        <!--Grid column-->
+                        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                            <h5 class="text-uppercase">Hướng dẫn</h5>
+
+                            <ul class="list-unstyled mb-0">
+                                <li>
+                                    <a href="#!" class="text-white">Hướng dẫn mua hàng</a>
+                                </li>
+                                <li>
+                                    <a href="#!" class="text-white">Hướng dẫn thanh toán</a>
+                                </li>
+
+                            </ul>
+                        </div>
+                        <!--Grid column-->
+
+                        <!--Grid column-->
+                        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                            <h5 class="text-uppercase">chính sách</h5>
+
+                            <ul class="list-unstyled mb-0">
+                                <li>
+                                    <a href="#!" class="text-white">Chính sách vận chuyển</a>
+                                </li>
+                                <li>
+                                    <a href="#!" class="text-white">Chính sách đổi trả</a>
+                                </li>
+                                <li>
+                                    <a href="#!" class="text-white">Chính sách bảo hành</a>
+                                </li>
+                                <li>
+                                    <a href="#!" class="text-white">Chính sách bảo mật</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <!--Grid column-->
+
+                        <!--Grid column-->
+                        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                            <h5 class="text-uppercase">facebook</h5>
+                            <img src="./images/fb.jpg" width="100%">
+
+                        </div>
+                        <!--Grid column-->
+                    </div>
+                    <!--Grid row-->
+                </section>
+                <!-- Section: Links -->
+            </div>
+            <!-- Grid container -->
+
+            <!-- Copyright -->
+
+            <div class="row">
+                <div class="col-sm-2">
+                    <p>
+
+                    </p>
+                </div>
+                <div class="col-sm-10">
+
+                    <h5 class="text-uppercase">bản đồ</h5>
+                    <img src="./images/bando.jpg">
+                </div>
+            </div>
+
+            <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+                Bản quyền thuộc về Công ty TNHH gỗ Đại Long
+                <a class="text-white" href="https://mdbootstrap.com/">| Thiết kế bởi QTS.</a>
+            </div>
+            <!-- Copyright -->
+        </footer>
+        <!-- Footer -->
+        >
+    </div>
+
+    <!-- Kết thúc phần Footer -->
+
+</body>
+
+</html>
